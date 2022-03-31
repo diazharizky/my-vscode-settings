@@ -54,5 +54,17 @@
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "ruby.intellisense": "rubyLocate",
+  "ruby.lint": {
+    "rubocop": true
+  },
+  "ruby.rubocop.executePath": "/path/to/shims/directory", // For Linux case /home/diazharizky/.rbenv/shims/
+  "[ruby]": {
+    "editor.defaultFormatter": "misogi.ruby-rubocop"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "solargraph.commandPath": "/path/to/absolute/path/solargraph", // For Linux case /home/diazharizky/.rbenv/shims/solargraph
+  "diffEditor.ignoreTrimWhitespace": false
 }
